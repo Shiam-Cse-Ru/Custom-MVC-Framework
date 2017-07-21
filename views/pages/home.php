@@ -1,34 +1,35 @@
 
 <div class="container">
   <div class="row">
-    <nav class="navbar navbar-default navbar-inverse " style="background-color: #89C4F4;" role="navigation">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
+    <div class="navbar navbar-inverse navbar-static-top">
+ 
+ <div class="container">
+ 
+ <a href="#" class="navbar-brand">Custom Mvc Framework</a> <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"></button>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active "><a href='?controller=pages&action=home'>Home</a></li>
+      <div class="collapse navbar-collapse navHeaderCollapse">
+
+      <ul class="nav navbar-nav">
+              <li class="active"><a href='?controller=pages&action=home'>Home</a></li>
             <li><a href='?controller=posts&action=index'>Blog</a></li>
-          <li><a href='#'>About</a></li>
-            <li><a href='#'>Course</a></li>
-          </ul>
-          <form class="navbar-form navbar-right" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
-            </div>
-            <button type="submit" class="btn  btn-primary">Submit</button>
-          </form>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
+            
+           <li><a href='?controller=pages&action=register'>Register</a></li>
+         
+           <li><a href='?controller=pages&action=login'>Login</a></li>
+             
+         </ul>
+      
+         <ul class="nav navbar-nav navbar-right">
+         <li class="dropdown"> 
+
+  
+            </li>
+        </ul>
+ 
+   
+      </div>
+    </div>
+  </div>
   </div>
   <div class="row">
    <div class="col-sm-4"><img src="bootstrap/img/logo2.jpg" alt="Wisdom Pets." class="img-responsive"></div>
@@ -63,10 +64,10 @@
           <p><a href="#" class="btn btn-readmore btn-primary">Read more >></a></p>
       </div>
   </div>
-  <footer>
-  <nav class="navbar navbar-default navbar-inverse" style="background-color: #4B77BE;" role="navigation">
+  <footer class="footer-basic-centered">
+  <nav class="navbar navbar-default navbar-inverse" style="background-color:black;" role="navigation">
    
-      <p class="text-center"><b>Copyright@Abdullah Al Shiam</b></p>
+      <p class="text-center" style="color: #E4F1FE;"><b>Copyright@Abdullah Al Shiam 2017</b></p>
 
     </nav>
     </footer>
