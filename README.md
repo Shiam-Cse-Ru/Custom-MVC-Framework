@@ -1,7 +1,7 @@
 A Most Simple PHP MVC Framework
-Academic Project
-====================
 
+====================
+Academic Project
 <pre><b>This shows how one can build an MVC app with PHP.Using Language:php,html,css,Mysql,Bootstrap</b></pre>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this project and associated documentation files (the "Software"), to deal in the project without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the schema design is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the project. <br>
